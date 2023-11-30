@@ -1,5 +1,15 @@
 # Changelog
 
+## \[2.0.0-alpha.13]
+
+### Bug Fixes
+
+- [`46451aee`](https://www.github.com/tauri-apps/tauri/commit/46451aee1318f63a6cd861a12b63929b38c64eb6)([#8268](https://www.github.com/tauri-apps/tauri/pull/8268)) Add top-level `main`, `module` and `types` fields in `package.json` to be compliant with typescripts's `"moduleResolution": "node"`
+
+### Breaking Changes
+
+- [`c2ad4d28`](https://www.github.com/tauri-apps/tauri/commit/c2ad4d28c481b2d7ed643458db56210cd44a2e0c)([#8273](https://www.github.com/tauri-apps/tauri/pull/8273)) Changed former `tauri` module from `primitives` to `core`.
+
 ## \[2.0.0-alpha.12]
 
 ### New Features

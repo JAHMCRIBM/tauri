@@ -1,5 +1,11 @@
 # Changelog
 
+## \[2.0.0-alpha.19]
+
+### New Features
+
+- [`bf095df5`](https://www.github.com/tauri-apps/tauri/commit/bf095df55aa27fb22c9240ddf8d673cfe0a4a2db)([#8276](https://www.github.com/tauri-apps/tauri/pull/8276)) Exposed `Manager::resources_table` to access the resources table used by tauri, which could be used by plugins or app authors to store their resources and retrieve it later using an id.
+
 ## \[2.0.0-alpha.18]
 
 ### Bug Fixes
