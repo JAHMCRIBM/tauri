@@ -33,6 +33,7 @@
       },
       "macOS": {
         "frameworks": [],
+        "plugins": [],
         "exceptionDomain": ""
       }
     },

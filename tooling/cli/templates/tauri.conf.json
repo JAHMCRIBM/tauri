@@ -32,6 +32,7 @@
       },
       "macOS": {
         "frameworks": [],
+        "plugins": [],
         "exceptionDomain": "",
         "signingIdentity": null,
         "providerShortName": null,

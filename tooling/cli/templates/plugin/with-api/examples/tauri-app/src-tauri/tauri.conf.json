@@ -35,6 +35,7 @@
         "entitlements": null,
         "exceptionDomain": "",
         "frameworks": [],
+        "plugins": [],
         "providerShortName": null,
         "signingIdentity": null
       },

@@ -104,6 +104,7 @@ These settings are used only when bundling `app` and `dmg` packages.
       },
       "macOS": {
         "frameworks": [],
+        "plugins": [],
         "minimumSystemVersion": "10.11",
         "license": "./LICENSE"
       },

@@ -35,6 +35,7 @@
         "signingIdentity": null,
         "entitlements": "../entitlements.plist",
         "frameworks": [],
+        "plugins": [],
         "exceptionDomain": ""
       },
       "windows": {
