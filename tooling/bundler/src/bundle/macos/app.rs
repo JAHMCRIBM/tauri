@@ -365,7 +365,8 @@ fn copy_plugins_to_bundle(bundle_directory: &Path, settings: &Settings) -> crate
   for plugin in plugins.iter() {
     let src_path = PathBuf::from(plugin);
     let src_name = src_path.file_name().expect("Couldn't get plugin filename");
-    common::copy_dir(&src_path, &dest_dir.join(&src_name))?;
+    let dest_path = dest_dir.join(&src_name);
+    common::copy_dir(&src_path, &dest_path)?;
     paths.push(dest_path);
   }
   Ok(paths)
