@@ -92,7 +92,7 @@ pub fn bundle_project(settings: &Settings) -> crate::Result<Vec<PathBuf>> {
 
   let plugin_paths = copy_plugins_to_bundle(&bundle_directory, settings)
       .with_context(|| "Failed to bundle plugins")?;
-  sign_paths.extend(
+  /*sign_paths.extend(
     plugin_paths
         .into_iter()
         .filter(|p| {
@@ -103,7 +103,9 @@ pub fn bundle_project(settings: &Settings) -> crate::Result<Vec<PathBuf>> {
           path,
           is_an_executable: false,
         }),
-  );
+  );*/
+
+  print!("Skipping plugin signing!!!");
 
   settings.copy_resources(&resources_dir)?;
 
