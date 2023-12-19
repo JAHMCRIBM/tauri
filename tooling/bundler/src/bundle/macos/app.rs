@@ -105,7 +105,7 @@ pub fn bundle_project(settings: &Settings) -> crate::Result<Vec<PathBuf>> {
         }),
   );*/
 
-  print!("Skipping plugin signing!!!");
+  info!(action = "Bundling"; "Skipping plugin signing");
 
   settings.copy_resources(&resources_dir)?;
 
